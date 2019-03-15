@@ -45,6 +45,7 @@ def hit?(total)
     total
   else
     invalid_command
+    hit?(total)
   end
 end
 
